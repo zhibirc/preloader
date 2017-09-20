@@ -1,0 +1,26 @@
+{
+    "name": "preloader",
+    "version": "1.0.0",
+    "description": "Web resources loader/cacher",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhibirc/preloader.git"
+    },
+    "author": "",
+    "bugs": {
+        "url": "https://github.com/zhibirc/preloader/issues"
+    },
+    "homepage": "https://github.com/zhibirc/preloader#readme",
+    "dependencies": {
+        "cjs-eslint-config": "^1.1.0",
+        "debug": "^3.0.1"
+    },
+    "keywords": [
+        "image",
+        "loader"
+    ],
+    "license": "MIT"
+}
