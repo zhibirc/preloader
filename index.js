@@ -7,7 +7,7 @@
 'use strict';
 
 
-class Preloader {
+class Preloader extends Promise {
     /**
      * @param {Object[]} loadStuff resources for loading
      * @param {(function|null)} [onReject=null] callback when operation fails
@@ -16,6 +16,8 @@ class Preloader {
      * @constructor
      */
     constructor ( loadStuff, onReject = null, onResolve = null ) {
+        super();
+
         this.loadStuff = loadStuff;
         this.onReject  = onReject;
         this.onResolve = onResolve;
